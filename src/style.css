@@ -1,7 +1,34 @@
-.basic {
-    color: #02863FF;
-    font-family: arial;
-    text-align: center;
+.basic-pink {
+    color: #FF69B4;
+    font-family: verdana;
+    font-size: 25px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.basic-blue {
+    color: #00ccff;
+    font-family: verdana;
+    font-size: 25px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.basic-yellow {
+    color: yellow;
+    font-family: verdana;
+    font-size: 25px;
+    margin-left: 50px;
+    text-align: left;
+}
+
+.big {
+    color:#ffffff;
+    font-family: futura;
+    text-align:left;
+    font-size: 150px;
+    margin-top: -10px;
+    margin-left: 20px;
 }
 
 .pic {
@@ -29,6 +56,14 @@
 
 .stayput{
     position: fixed;
-    top: 850px;
+    top: 1000px;
     width: 100%;
+}
+
+.logosize{
+    width: 75px;
+    length: 75px;
+    hspace: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
