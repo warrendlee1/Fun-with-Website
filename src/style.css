@@ -1,6 +1,7 @@
 .basic {
-    color: #00ff00;
-    font-family: courier new;
+    color: #02863FF;
+    font-family: arial;
+    text-align: center;
 }
 
 .pic {
@@ -14,4 +15,20 @@
 
 .visiblePic {
     visibility: visible;
+}
+
+.background {
+    background: url(mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px
+}
+
+.center {
+    text-align: center;
+}
+
+.stayput{
+    position: fixed;
+    top: 850px;
+    width: 100%;
 }
