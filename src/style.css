@@ -7,3 +7,11 @@
     width: 100px;
     length: 100px;
 }
+
+.invisiblePic {
+    visibility: hidden;
+}
+
+.visiblePic {
+    visibility: visible;
+}
