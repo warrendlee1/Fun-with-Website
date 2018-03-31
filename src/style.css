@@ -1,7 +1,7 @@
 .basic-pink {
     color: #FF69B4;
     font-family: verdana;
-    font-size: 25px;
+    font-size: 35px;
     margin-left: 50px;
     text-align: left;
 }
@@ -9,7 +9,7 @@
 .basic-blue {
     color: #00ccff;
     font-family: verdana;
-    font-size: 25px;
+    font-size: 35px;
     margin-left: 50px;
     text-align: left;
 }
@@ -17,7 +17,7 @@
 .basic-yellow {
     color: yellow;
     font-family: verdana;
-    font-size: 25px;
+    font-size: 35px;
     margin-left: 50px;
     text-align: left;
 }
@@ -34,6 +34,11 @@
 .pic {
     width: 100px;
     length: 100px;
+}
+
+.largepic{
+    width: 200px;
+    length: 200px;
 }
 
 .invisiblePic {
@@ -56,14 +61,24 @@
 
 .stayput{
     position: fixed;
-    top: 1000px;
+    top: 1025px;
     width: 100%;
 }
 
 .logosize{
-    width: 75px;
-    length: 75px;
+    width: 85px;
+    length: 85px;
     hspace: 10px;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.menu-location{
+    position: fixed;
+    width: 200px;
+    length: 200px;
+    right: 40px;
+    top: -35px;
+
+
 }

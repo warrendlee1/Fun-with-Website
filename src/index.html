@@ -2,40 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css" >
     <title>Title</title>
     <script src="animation.js"></script>
 </head>
 <body style  = "background-color: black" >
 
-    <h1 class="big" > Warren Lee </h1>
+    <div style = "margin-top: 20px; margin-left: 30px;">
+        <h1 class="big"> hey, I'm Warren </h1>
 
-    <p class = "basic-pink" id = "t1"> </p>
+
+        <!-- Example single danger button -->
+        <div class="btn-group menu-location" style="margin-top: 50px;">
+            <button type="button" class="btn btn-danger dropdown-toggle"  style = "color: black; border-color: black; background-color: black;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="menu.png" class = "largepic" >
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <p style = "margin-top: 50px" class = "basic-pink" id = "t1"> </p>
     <p class = "basic-blue" id = "t2"> </p>
     <p class = "basic-yellow" id = "t3"> </p>
 
-    <div class="center">
-        <img id = "bl" class = "pic invisiblePic" src = "download.jpeg" alt = "bruce lee">
-    </div>
+    <!--<div class="center">-->
+        <!--<img id = "bl" class = "pic invisiblePic" src = "download.jpeg" alt = "bruce lee">-->
+    <!--</div>-->
     <p class = "basic-pink" id = "t4"> </p>
 
-    <div class = "center">
-        <img id = "fc" class = "pic invisiblePic" src = "chopin.jpg" alt = "chopin">
-    </div>
+    <!--<div class = "center">-->
+        <!--<img id = "fc" class = "pic invisiblePic" src = "chopin.jpg" alt = "chopin">-->
+    <!--</div>-->
     <p class = "basic-blue" id = "t5"> </p>
 
     <p class = "basic-yellow" id = "t6"> </p>
 
     <div class = "center stayput">
         <a href="https://www.linkedin.com/feed/" target="_blank"><img id = "LI" class = "logosize" src=" linkedin.png"></a>
-        <a href="https://github.com/warrendlee1" target="_blank"><img id = "GH" class = "logosize" src=" github.png"</a>
-        <a href="mailto::warrendlee1@gmail.com" target="_blank"><img id = "GM" class = "logosize" src=" gmail.png"</a>
+        <a href="https://github.com/warrendlee1" target="_blank"><img id = "GH" class = "logosize" src=" github.png"></a>
+        <a href="mailto::warrendlee1@gmail.com" target="_blank"><img id = "GM" class = "logosize" src=" gmail.png"></a>
         <a href="https://soundcloud.com/warren-lee-367181584" target="_blank"><img id = "SC" class = "logosize" src=" soundcloud.png"</a>
     </div>
+
+
+
 
     <script>
         typeAll();
     </script>
+
+    <!--js bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 </html>
