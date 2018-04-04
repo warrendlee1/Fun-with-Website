@@ -1,10 +1,10 @@
-var txt1 = "Aspiring programmer. Currently learning Python, HTML, and Javascript."
-var txt2 = "Plays piano and enjoys most music. Enjoys composition and competing."
-var txt3 = "Meeting interesting people is energizing. An active leader of school clubs."
+var txt1 = "{ student • musician • programmer • leader }"
+var txt2 = "Musician"
+var txt3 = "leadership"
 var txt4 = "Traveling the world to see new cultures. Love delicious, traditional foods."
 var txt5 = "Bruce lee is my life inspiration. Best philosophy, advice, and movies. "
 var txt6 = "Welcome to my website! Let's get to know each other more! :)"
-var speed = 25; /* The speed/duration of the effect in milliseconds */
+var speed = 60; /* The speed/duration of the effect in milliseconds */
 var array = [txt1, txt2,txt3,txt4,txt5,txt6];
 var arrayid = ["t1","t2","t3","t4","t5","t6"];
 
