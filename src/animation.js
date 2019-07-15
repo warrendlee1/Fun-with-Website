@@ -1,4 +1,4 @@
-var txt1 = " student | musician | programmer | leader "
+var txt1 = " musician | leader | programmer | entrepreneur"
 var txt2 = "Musician"
 var txt3 = "leadership"
 var txt4 = "Traveling the world to see new cultures. Love delicious, traditional foods."
